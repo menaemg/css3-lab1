@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #222;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+}
+
+.navbar h3 {
+    margin: 20px;
+}
+
+.list-nav {
+    list-style-type: none;
+    margin-top: 100px;
+
+}
+
+.list-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.list-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.about p {
+    width: 80%;
+    margin: 2% auto; 
+    color: #444;
+
+}
+
+.about .img {
+    width: 200px;
+    height: 200px;
+    background: url(./image.webp);
+    background-position: top;
+    margin: 0 auto;
+    border-radius: 50%
+}
+
+.skills {
+    margin-top: 1%;
+    background: #f2f2f2;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #000;
+}
+
+.skills-list {
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+    padding: 1% 2%;
+    /* border: 1px solid #444; */
+    background-color: #fff;
+    border-radius: 5%;
+    box-shadow: .5px .5px 5px #000;
+    transition: all .4s ease;
+}
+
+.skills-list li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.projects {
+    padding-top: 4%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.project {
+    margin: 1.5rem;
+    display: inline-block;
+    width: 20%;
+    padding: 1%;
+    border: .5px solid #000;
+    background-color: #fff;
+    border-radius: 2%;
+    transition: all .4s ease;
+}
+
+.project p {
+    margin: 1rem;
+}
+
+
+.project a {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.contact {
+    padding-top: 4%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.contact p, .contact ul {
+    margin-top: 2%;
+}
+.contact li {
+    margin-top: 1%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.footer {
+    background: #222;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
